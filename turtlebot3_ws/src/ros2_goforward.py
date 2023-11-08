@@ -2,56 +2,61 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
-# "GoForward" class inherits from the base class "Node"
 class GoForward(Node):
 
     def __init__(self):
-    	# Initialize the node
         super().__init__('GoforwardCmd_publisher')
-        # Initialize the publisher
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         timer_period = 0.5  # seconds
-        # Initialize a timer that excutes call back function every 0.5 seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-     
-    
-        
+
+        self.speed = 0.0
+        self.distance = 0.0
+        self.isForward = True
+
+    def command_input(self):
+        print("Let's move your robot")
+        self.speed = float(input("Input your speed:"))
+        self.distance = float(input("Type your distance:"))
+        forward_input = input("Forward? (yes or no): ").lower()
+        self.isForward = forward_input in ['yes']
+
     def timer_callback(self):
-        # Create an object of msg type Twist() 
-        # and define linear velocity and angular velocity
         move_cmd = Twist()
-        move_cmd.linear.x = 0.2
-        move_cmd.angular.z = 0.0
-        #publish  the velcity command
+
+        if self.isForward:
+            move_cmd.linear.x = abs(self.speed)
+        else:
+            move_cmd.linear.x = -abs(self.speed)
+
         self.publisher_.publish(move_cmd)
-        #log details of the current phase of execution
         self.get_logger().info('Publishing cmd_vel')
-        
+        self.update_distance()
+
+    def update_distance(self):
+        current_distance = self.speed * 0.5  # Assuming constant speed
+        self.distance -= current_distance
+
+        if self.distance <= 0:
+            self.stop_turtlebot()
+
     def stop_turtlebot(self):
-    	# define what happens when program is interrupted
-    	# log that turtlebot is being stopped
-    	self.get_logger().info('stopping turtlebot')
-    	# publishing an empty Twist() command sets all velocity components to zero
-    	# Otherwise turtlebot keeps moving even if command is stopped
-    	self.publisher_.publish(Twist())
-    	
-    
+        self.get_logger().info('Stopping turtlebot')
+        self.get_logger().info('Robot stopped')
+        self.publisher_.publish(Twist())
+        self.timer.cancel()
+
 def main(args=None):
     rclpy.init(args=args)
-    
-    # we are using try-except tools to  catch keyboard interrupt
+
     try:
-    	# create an object for GoForward class
-    	cmd_publisher = GoForward()
-    	# continue untill interrupted
-    	rclpy.spin(cmd_publisher)
-    	
+        cmd_publisher = GoForward()
+        cmd_publisher.command_input()  # Get user input
+        rclpy.spin(cmd_publisher)
     except KeyboardInterrupt:
-    	# execute shutdown function
-    	cmd_publisher.stop_turtlebot()
-    	# clear the node
-    	cmd_publisher.destroy_node()
-    	rclpy.shutdown()
-    	
+        cmd_publisher.stop_turtlebot()
+        cmd_publisher.destroy_node()
+        rclpy.shutdown()
+
 if __name__ == '__main__':
     main()
