@@ -9,19 +9,18 @@ class Rotate:
         self.node = rclpy.create_node('rotate_robot_node')
         self.velocity_publisher = self.node.create_publisher(Twist, '/cmd_vel', 10)
         self.vel_msg = Twist()
+        self.speed = 0.0
+        self.angle = 0.0
+        self.clockwise = True
+    
+    def isEqual(self, current_angle, relative_angle): 
+        return abs(current_angle - relative_angle) < 0.001
 
-    def run(self):
-        self.rotate_robot()
-
-    def set_params(self, speed, angle, clockwise):
+    def rotate_robot(self, speed, angle, clockwise):
         self.speed = speed
         self.angle = angle
         self.clockwise = clockwise
-    
-    def isEqual(self, current_angle, relative_angle): 
-        return abs(current_angle - relative_angle) < 0.01
-    
-    def rotate_robot(self):
+
         angular_speed = math.radians(self.speed)
         relative_angle = math.radians(self.angle)
 
@@ -32,28 +31,22 @@ class Rotate:
         else:
             self.vel_msg.angular.z = abs(angular_speed)
 
-        # Initial time and angle
         t0 = rclpy.clock.Clock().now().nanoseconds / 1e9
         current_angle = 0.0
 
         while not self.isEqual(current_angle, relative_angle):
             self.velocity_publisher.publish(self.vel_msg)
             t1 = rclpy.clock.Clock().now().nanoseconds / 1e9
-            # Calculate elapsed time
-            elapsed_time = (t1 - t0)
-            # Update the current angle based on the angular speed and elapsed time
-            current_angle = angular_speed * elapsed_time
-
-            # Log the rotation progress
+            current_angle = angular_speed * (t1 - t0)
             self.node.get_logger().info(f"Rotating... Current angle: {math.degrees(current_angle)}, Target angle: {math.degrees(relative_angle)}")
 
-            # Terminating condition with a small margin for precision
-            if abs(current_angle - relative_angle) < 0.01:
-                break
-        print(Rotate().isEqual(current_angle, relative_angle))
         self.vel_msg.angular.z = 0.0
         self.velocity_publisher.publish(self.vel_msg)
-        
+
+    def run(self, speed, angle, clockwise):
+        self.rotate_robot(speed, angle, clockwise)
+
+
 class GoForward(Node):
     def __init__(self):
         super().__init__('GoforwardCmd_publisher')
@@ -105,7 +98,6 @@ class GoForward(Node):
     def run(self):
         try:
             rclpy.spin(self)
-            
         except KeyboardInterrupt:
             self.stop_turtlebot()
         finally:
@@ -121,7 +113,6 @@ class GoToGoal(Node):
         self.goal_pose = Pose()
         self.distance_tolerance = 0.0  # Initialize with zero for now
         self.go_forward = GoForward()
-        self.rotate = Rotate()
 
     def user_goal(self):
         self.goal_pose = Pose()
@@ -137,37 +128,38 @@ class GoToGoal(Node):
     def euclidean_distance(self, goal_pose):
         return math.sqrt(pow((goal_pose.x - self.pose.x), 2) + pow((goal_pose.y - self.pose.y), 2))
 
-    def linear_vel(self, goal_pose, constant=1.5):
-        return constant * self.euclidean_distance(goal_pose)
-
     def steering_angle(self, goal_pose):
         return math.atan2(goal_pose.y - self.pose.y, goal_pose.x - self.pose.x)
 
-    def angular_vel(self, goal_pose, constant=6):
-        return constant * (self.steering_angle(goal_pose) - self.pose.theta)
-
     def run(self):
         self.get_logger().info(f"Position: {self.pose}, Goal: {self.goal_pose}")
-
-        rotate = Rotate()
+        
+        rotate = Rotate()  # Instantiate the Rotate object here
         delta_angle = self.steering_angle(self.goal_pose)
         is_CW = delta_angle > 0  # Determine the direction of rotation
-        speed_angular = 0.5 #1.0 * abs(delta_angle)
-        rotate.set_params(speed_angular, abs(delta_angle), is_CW)
-        rotate.run()
+        speed_angular = 0.5  # 1.0 * abs(delta_angle)
+        rotate.run(speed_angular, abs(delta_angle), is_CW)
 
         distance = self.euclidean_distance(self.goal_pose)
         speed = 0.5 #* distance
         forward_command = GoForward()
         forward_command.set_params(speed, distance, isForward=True)
-        forward_command.run()
 
+        timer_period = 0.5  # seconds
+        forward_timer = forward_command.create_timer(timer_period, forward_command.timer_callback)
+
+        try:
+            rclpy.spin(forward_command)
+        except KeyboardInterrupt:
+            forward_command.stop_turtlebot()
+        finally:
+            forward_command.destroy_node()
 
 def main(args=None):
     rclpy.init(args=args)
 
-    node = GoToGoal()  # Creating an instance of GoToGoal
-    node.user_goal()  # Setting the goal
+    node = GoToGoal()
+    node.user_goal()
     node.run()
 
     rclpy.shutdown()
