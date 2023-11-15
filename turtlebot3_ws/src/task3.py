@@ -156,7 +156,7 @@ class GoToGoal(Node):
             
             # Actual movement
             self.go_forward.run()
-            #time.sleep(2)
+            time.sleep(2)
 
             # The theta rotation for the final pose/ final rotation
             is_CW = self.theta > 0
