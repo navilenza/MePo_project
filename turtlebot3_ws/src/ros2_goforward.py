@@ -1,7 +1,9 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
+import math
 
+# class GoForward is the ROS2 version of move from the ROS wiki
 class GoForward(Node):
 
     def __init__(self):
@@ -21,6 +23,11 @@ class GoForward(Node):
         forward_input = input("Forward? (yes or no): ").lower()
         self.isForward = forward_input in ['yes']
 
+    def set_params(self, speed, distance, isForward):
+        self.speed = speed
+        self.distance = distance
+        self.isForward = isForward
+    
     def timer_callback(self):
         move_cmd = Twist()
 
@@ -46,6 +53,15 @@ class GoForward(Node):
         self.publisher_.publish(Twist())
         self.timer.cancel()
 
+    def run(self):
+        self.command_input()  # Get user input before spinning the node
+        try:
+            rclpy.spin(self)
+        except KeyboardInterrupt:
+            self.stop_turtlebot()
+        finally:
+            self.destroy_node()
+
 def main(args=None):
     rclpy.init(args=args)
 
@@ -57,6 +73,5 @@ def main(args=None):
         cmd_publisher.stop_turtlebot()
         cmd_publisher.destroy_node()
         rclpy.shutdown()
-
 if __name__ == '__main__':
     main()

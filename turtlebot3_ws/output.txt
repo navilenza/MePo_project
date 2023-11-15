@@ -1,0 +1,1907 @@
+[37;1m2023-11-14 12:22:40.169 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port14915: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[37;1m2023-11-14 12:22:40.169 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port14919: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+[37;1m2023-11-14 12:22:40.170 [31;1m[[37;1mRTPS_TRANSPORT_SHM[31;1m Error] [37mFailed init_port fastrtps_port14925: open_and_lock_file failed[34;1m -> Function [36mopen_port_internal[m
+header:
+  stamp:
+    sec: 438
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 439
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 440
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 441
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 442
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 443
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 444
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 445
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 446
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 447
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 448
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 449
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 450
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 451
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 452
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 651000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 453
+    nanosec: 851000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 51000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 251000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 451000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 454
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 455
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 456
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 457
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 458
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 459
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 460
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 652000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 461
+    nanosec: 852000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 462
+    nanosec: 52000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 462
+    nanosec: 252000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
+header:
+  stamp:
+    sec: 462
+    nanosec: 452000000
+  frame_id: base_scan
+angle_min: 0.0
+angle_max: 6.28000020980835
+angle_increment: 0.01749303564429283
+time_increment: 0.0
+scan_time: 0.0
+range_min: 0.11999999731779099
+range_max: 3.5
+ranges:- '...'
+intensities:
+- '...'
+---
