@@ -3,7 +3,7 @@
   <world name='custom'>
     <model name='ground_plane'>
       <static>1</static>
-      <link name='link'>
+      <link name='linka'>
       <collision name='collision'>
         <geometry>
           <plane>
